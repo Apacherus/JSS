@@ -4,6 +4,8 @@
  * https://github.com/Apacherus
  **/
 
+var cloneDeep = require('clone-deep');
+
 module.exports = function(style){
 
     function objToStyle(style, parent, parentStyle){
@@ -38,7 +40,7 @@ module.exports = function(style){
             }
         }
 
-        var _baseStyle = JSON.parse(JSON.stringify(baseStyle));
+        var _baseStyle = cloneDeep(baseStyle);
 
         //add parent props
         for(var parentProp in parentStyle){

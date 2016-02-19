@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zloy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "clone-deep": "^0.2.4"
+  }
 }
