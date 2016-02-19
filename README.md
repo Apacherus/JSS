@@ -2,8 +2,8 @@
 
 How to use:
 
-1. `npm install https://github.com/Apacherus/JSS --save`
-2. Write style:
+- `npm install https://github.com/Apacherus/JSS --save`
+- Write style:
 
 ```js
 import JSS from 'jss'
@@ -36,7 +36,7 @@ let style = {
 };
 export default JSS(style)
 ```
-3. Create stylized component:
+- Create stylized component:
 ```js
 let reactElement = <div style={style.phone.iOS()}>text</div>
 ```
