@@ -5,7 +5,8 @@ How to use:
 1. `npm install jss --save`
 2. Write style:
 
-`import JSS from 'jss'
+```js
+import JSS from 'jss'
 let style = {
     phone: {
         width: '320px',
@@ -20,7 +21,10 @@ let style = {
         }
     }
 };
-export default JSS(style)`
+export default JSS(style)
+```
 
 3) Create stylized component:
-`let reactElement = <div style={style.phone.iOS()}>text</div>`
+```js
+let reactElement = <div style={style.phone.iOS()}>text</div>
+```
