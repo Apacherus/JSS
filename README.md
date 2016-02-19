@@ -36,7 +36,6 @@ let style = {
 };
 export default JSS(style)
 ```
-
 3. Create stylized component:
 ```js
 let reactElement = <div style={style.phone.iOS()}>text</div>
