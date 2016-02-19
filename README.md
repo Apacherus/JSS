@@ -2,7 +2,7 @@
 
 How to use:
 
-1. `npm install jss --save`
+1. `npm install https://github.com/Apacherus/JSS --save`
 2. Write style:
 
 ```js
