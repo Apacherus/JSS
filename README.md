@@ -1,10 +1,11 @@
-JSS is a JavaScript Style
+##JSS is a JavaScript Style
 
 How to use:
 
-1) npm install jss --save
-2) import JSS from 'jss'
-3) let style = {
+1. `npm install jss --save`
+2. Write style:
+`import JSS from 'jss'
+let style = {
     phone: {
         width: '320px',
         height: '480px',
@@ -19,4 +20,6 @@ How to use:
         }
     }
 };
-3) let reactElement = <div style={style.phone.iOS()}>text</div>
+export default JSS(style)`
+3) Create stylized component:
+`let reactElement = <div style={style.phone.iOS()}>text</div>`
